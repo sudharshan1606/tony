@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Sudharshan's interactive portfolio page">
+    <title>Welcome to Sudharshan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+        <div class="floating-orb orb-4"></div>
+        <div class="floating-orb orb-5"></div>
+    </div>
+
+    <!-- Particle Container -->
+    <div id="particles-container"></div>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <div class="content-wrapper">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="greeting-text">
+                    <span class="greeting-line" id="greeting-line">Hello, Welcome</span>
+                </div>
+                
+                <h1 class="main-title">
+                    <span class="title-line">Welcome to</span>
+                    <span class="name-highlight" id="name-text">
+                        <span class="letter">S</span>
+                        <span class="letter">u</span>
+                        <span class="letter">d</span>
+                        <span class="letter">h</span>
+                        <span class="letter">a</span>
+                        <span class="letter">r</span>
+                        <span class="letter">s</span>
+                        <span class="letter">h</span>
+                        <span class="letter">a</span>
+                        <span class="letter">n</span>
+                    </span>
+                </h1>
+
+                <p class="tagline" id="tagline">
+                    <span class="tagline-text">Crafting Digital Experiences</span>
+                </p>
+
+                <!-- Interactive Elements -->
+                <div class="cta-container">
+                    <button class="cta-button primary" id="explore-btn">
+                        <span class="btn-text">Explore</span>
+                        <span class="btn-icon">→</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="cta-button secondary" id="contact-btn">
+                        <span class="btn-text">Get in Touch</span>
+                        <div class="btn-border"></div>
+                    </button>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="stats-container" id="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-plus">%</span>
+                        <span class="stat-label">Dedication</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="24">0</span>
+                        <span class="stat-plus">/7</span>
+                        <span class="stat-label">Available</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Decorative Elements -->
+            <div class="decorative-circle circle-1"></div>
+            <div class="decorative-circle circle-2"></div>
+            <div class="decorative-line line-1"></div>
+            <div class="decorative-line line-2"></div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" id="scroll-indicator">
+            <span class="scroll-text">Scroll to explore</span>
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cursor Follower -->
+    <div class="cursor-follower" id="cursor-follower"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
